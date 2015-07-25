@@ -39,12 +39,19 @@ osu!mania = 3
   WEB経由でユーザーIDを取得します。
 ###get\_user_page :param page
   ユーザーページを取得します。  
+  
   >:param  
+  
     >>general  ユーザーページのgeneralタブ内のデータを取得します。  
+    
     >>leader  ユーザーページのtop ranksタブ内のデータを取得します。  
+    
     >>history  ユーザーページのhistoryタブ内のデータを取得します。  
+    
     >>beatmaps  ユーザーページのbeatmapsタブ内のデータを取得します。  
+    
     >>achievements  ユーザーページのachievementsタブ内のデータを取得します。 
+    
 ###get\_domestic_rank
 国内ランクを取得します。  
 ###next\_domestic_rank_up :param rank_up
