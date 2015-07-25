@@ -62,6 +62,10 @@ class Osu_web
     return cookies
   end
   
+  def get_cookie
+      return self.cookie
+  end
+  
   def get_user_id
     response = @https.start{|https|
       https.get('/', {'Cookie'=>self.cookie})
